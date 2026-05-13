@@ -9,11 +9,15 @@
 #### Stack Overflow : http://stackoverflow.com/users/7585478/piyali
 #### Hackerrank : https://www.hackerrank.com/piyalidas_it
 
-Agile tools :  JIRA, Azure
-Automated Deployment Tool : Jenkins
-Cloud Platform Services : Heroku, Azure
-Browse Rest APIs : Swagger
-Repository Manager : Nexus
+## 🌐 Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/piyalidas10/
+- GitHub: https://github.com/piyalidas10
+- https://medium.com/@piyalidas.it
+- https://stackblitz.com/@piyalidas10
+- http://codepen.io/piyalidas
+
+---
 
 ## 💡 About Me
 
@@ -45,26 +49,16 @@ Repository Manager : Nexus
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=piyalidas10&show_icons=true&theme=tokyonight)
+![Piyali's GitHub stats](https://github-readme-stats.vercel.app/api?username=piyalidas10&show_icons=true&theme=tokyonight&cache_seconds=1800)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=piyalidas10&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=piyalidas10&layout=compact&theme=tokyonight&cache_seconds=1800)
 
 ---
+
+⭐ Always open to collaborating on Angular, AI, and Open Source projects!
 
 ## 🏆 GitHub Trophies
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=piyalidas10&theme=tokyonight)
 
 ---
-
-## 🌐 Connect With Me
-
-- LinkedIn: https://www.linkedin.com/in/piyalidas10/
-- GitHub: https://github.com/piyalidas10
-- https://medium.com/@piyalidas.it
-- https://stackblitz.com/@piyalidas10
-- http://codepen.io/piyalidas
-
----
-
-⭐ Always open to collaborating on Angular, AI, and Open Source projects!
