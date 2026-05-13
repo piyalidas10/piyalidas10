@@ -47,11 +47,13 @@
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub Analytics
 
-![Piyali's GitHub stats](https://github-readme-stats.vercel.app/api?username=piyalidas10&show_icons=true&theme=tokyonight&cache_seconds=1800)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=piyalidas10&show_icons=true&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=piyalidas10&layout=compact&theme=tokyonight&cache_seconds=1800)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=piyalidas10&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=piyalidas10&theme=tokyonight&hide_border=true)
 
 ---
 
