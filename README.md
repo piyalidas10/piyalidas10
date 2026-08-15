@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Piyali Das
+# Hi there 👋 I'm Piyali Das 🧡🤍💚
 
 🚀 Angular Developer | AI & GenAI Enthusiast | Open Source Contributor
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=FF0000&width=700&lines=Angular+Developer;AI+%26+GenAI+Engineer;Open+Source+Contributor)](https://git.io/typing-svg)
