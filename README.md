@@ -50,12 +50,12 @@ I specialise in building scalable, secure, and high-performance applications usi
 
 Beyond frontend development, I have hands-on experience with **API integration, CI/CD pipelines, cloud deployment, application security (SAST/DAST), accessibility (WCAG)**, and performance optimisation.
 
-I am currently expanding into **Artificial Intelligence and Generative AI** — working with Azure AI Foundry, RAG pipelines, Ollama, and Prompt Engineering to build intelligent enterprise applications.
+I am currently expanding into **Artificial Intelligence and Generative AI** — working with Docker, RAG pipelines, Ollama, and Prompt Engineering to build intelligent enterprise applications.
 
 - 🏗️ Architecting **Micro-Frontend** systems with **Nx Monorepo** and **Module Federation**
 - 🔐 Resolving **Veracode SAST/DAST** security vulnerabilities in enterprise applications
 - ♿ Implementing **WCAG / ARIA** accessibility standards across enterprise portals
-- 🤖 Building **RAG pipelines** with Azure AI Foundry, Ollama, and vector databases
+- 🤖 Gaining **AI Knowledge** with Docker, Ollama, and vector databases
 - 🚀 Currently at **IBM** — Senior Developer in Airline & Retail Banking domains
 - 📖 Writing technical articles on Angular and AI on [Medium](https://medium.com/@piyalidas.it)
 
@@ -93,17 +93,16 @@ I am currently expanding into **Artificial Intelligence and Generative AI** — 
 ![Micro Frontends](https://img.shields.io/badge/Micro_Frontends-FF6B35?style=for-the-badge&logoColor=white)
 ![Nx](https://img.shields.io/badge/Nx_Monorepo-143055?style=for-the-badge&logo=nx&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![ag-Grid](https://img.shields.io/badge/ag--Grid-FF0000?style=for-the-badge&logoColor=white)
 ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
 
 ### AI & GenAI
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Azure AI](https://img.shields.io/badge/Azure_AI_Foundry-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-6B21A8?style=for-the-badge&logoColor=white)
+
 
 ### Testing & Quality
 ![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=jasmine&logoColor=white)
@@ -115,7 +114,6 @@ I am currently expanding into **Artificial Intelligence and Generative AI** — 
 ![Azure](https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_API_Gateway-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ---
 
