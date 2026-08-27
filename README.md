@@ -95,12 +95,22 @@ More recently I have been deep-diving into **Agentic AI** — building intellige
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=piyalidas10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=piyalidas10&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=piyalidas10&data=followers,repositories,stars,commits&theme=darkmode" width="98%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=piyalidas10&theme=tokyonight&hide_border=true" width="60%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=piyalidas10&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=piyalidas10&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=piyalidas10&theme=tokyonight" width="32%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=piyalidas10&theme=tokyonight" width="65%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=piyalidas10&theme=tokyonight&utcOffset=5.5" width="32%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=piyalidas10&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="60%" />
 </p>
 
 ---
@@ -108,7 +118,7 @@ More recently I have been deep-diving into **Agentic AI** — building intellige
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=piyalidas10&theme=tokyonight&no-frame=true&row=1&column=7" />
+  <img src="https://github-trophy.vercel.app/?username=piyalidas10&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=4" />
 </p>
 
 ---
