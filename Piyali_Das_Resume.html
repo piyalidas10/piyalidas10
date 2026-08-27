@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyali Das – Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+      font-size: 11pt;
+      color: #1a1a1a;
+      background: #fff;
+      padding: 36px 48px;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    .header { border-bottom: 3px solid #1a4a8a; padding-bottom: 12px; margin-bottom: 14px; }
+    .header h1 { font-size: 26pt; font-weight: 700; color: #1a4a8a; letter-spacing: 1px; }
+    .header .title { font-size: 12pt; color: #444; font-weight: 600; margin-top: 3px; }
+    .header .subtitle { font-size: 10pt; color: #666; margin-top: 2px; font-style: italic; }
+    .contact-row { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px; font-size: 10pt; color: #333; }
+    .contact-row a { color: #1a4a8a; text-decoration: none; }
+
+    /* ── Section ── */
+    .section { margin-top: 18px; }
+    .section-title {
+      font-size: 12pt;
+      font-weight: 700;
+      color: #1a4a8a;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1.5px solid #c8d8f0;
+      padding-bottom: 3px;
+      margin-bottom: 10px;
+    }
+
+    /* ── About ── */
+    .about p { font-size: 10.5pt; line-height: 1.6; color: #333; margin-bottom: 6px; }
+
+    /* ── Experience ── */
+    .job { margin-bottom: 14px; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+    .job-title { font-weight: 700; font-size: 11pt; color: #1a1a1a; }
+    .job-company { font-weight: 600; color: #1a4a8a; font-size: 10.5pt; }
+    .job-period { font-size: 9.5pt; color: #666; white-space: nowrap; }
+    .job-domain { font-size: 9.5pt; color: #888; font-style: italic; margin-bottom: 5px; }
+    .job ul { padding-left: 18px; margin-top: 4px; }
+    .job ul li { font-size: 10pt; line-height: 1.55; color: #333; margin-bottom: 2px; }
+    .stack { font-size: 9.5pt; color: #555; margin-top: 5px; }
+    .stack strong { color: #1a4a8a; }
+
+    /* ── Skills Table ── */
+    .skills-table { width: 100%; border-collapse: collapse; font-size: 10pt; }
+    .skills-table td { padding: 5px 8px; border: 1px solid #dde4ef; vertical-align: top; }
+    .skills-table td:first-child { font-weight: 700; color: #1a4a8a; width: 26%; background: #f4f7fc; white-space: nowrap; }
+
+    /* ── Projects ── */
+    .project { margin-bottom: 14px; }
+    .project-title { font-weight: 700; font-size: 11pt; color: #1a1a1a; }
+    .project-meta { font-size: 9.5pt; color: #666; font-style: italic; margin-bottom: 4px; }
+    .project ul { padding-left: 18px; }
+    .project ul li { font-size: 10pt; line-height: 1.55; color: #333; margin-bottom: 2px; }
+
+    /* ── Education & Certs ── */
+    .edu-item { margin-bottom: 6px; font-size: 10.5pt; }
+    .edu-item .deg { font-weight: 700; }
+    .edu-item .inst { color: #444; }
+    .edu-item .year { color: #888; font-size: 9.5pt; }
+    .cert-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+    .cert-pill {
+      background: #eef3fb;
+      border: 1px solid #b8ccea;
+      border-radius: 4px;
+      padding: 3px 10px;
+      font-size: 9.5pt;
+      color: #1a4a8a;
+      font-weight: 600;
+    }
+
+    /* ── Print ── */
+    @media print {
+      body { padding: 20px 30px; }
+      .section { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════ HEADER ═══ -->
+<div class="header">
+  <h1>PIYALI DAS</h1>
+  <div class="title">Senior Frontend Engineer · Angular Architect · AI &amp; GenAI Enthusiast</div>
+  <div class="subtitle">14+ years building enterprise-scale web applications across Airline, Banking, Procurement &amp; Government domains</div>
+  <div class="contact-row">
+    <span>📍 Kolkata, West Bengal, India</span>
+    <span>📧 <a href="mailto:piyalidas.it@gmail.com">piyalidas.it@gmail.com</a></span>
+    <span>📱 +91 8777757112</span>
+    <span>🔗 <a href="https://www.linkedin.com/in/piyalidas10/">linkedin.com/in/piyalidas10</a></span>
+    <span>💻 <a href="https://github.com/piyalidas10">github.com/piyalidas10</a></span>
+    <span>🌐 <a href="https://piyalidas10.github.io/">piyalidas10.github.io</a></span>
+    <span>✍️ <a href="https://medium.com/@piyalidas.it">medium.com/@piyalidas.it</a></span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════ ABOUT ═══ -->
+<div class="section about">
+  <div class="section-title">Professional Summary</div>
+  <p>
+    A highly motivated <strong>Senior Frontend Engineer</strong> with <strong>14+ years</strong> of experience in designing, developing, and delivering enterprise-scale web applications across the <strong>Airline, Banking, Procurement, Government, and Digital Product</strong> domains.
+  </p>
+  <p>
+    Specialises in building scalable, secure, and high-performance applications using <strong>Angular, TypeScript, RxJS, NgRx, Micro Frontend Architecture</strong>, and modern frontend engineering practices. Proven track record of collaborating with architects, business analysts, and product owners to translate complex business requirements into elegant technical solutions.
+  </p>
+  <p>
+    Hands-on experience with <strong>API integration, CI/CD pipelines, cloud deployment, Veracode SAST/DAST security scanning, WCAG accessibility</strong>, and performance optimisation. Currently expanding expertise in <strong>Artificial Intelligence and Generative AI</strong> — working with RAG pipelines, Ollama, Docker, and Prompt Engineering.
+  </p>
+</div>
+
+<!-- ════════════════════════════════════════ SKILLS ═══ -->
+<div class="section">
+  <div class="section-title">Core Competencies</div>
+  <table class="skills-table">
+    <tr>
+      <td>Frontend Architecture</td>
+      <td>Angular (v2–v18+), Micro-Frontends, Module Federation, Nx Monorepo, Lazy Loading, PWA</td>
+    </tr>
+    <tr>
+      <td>State &amp; Reactivity</td>
+      <td>NgRx, RxJS, Signals, Component Store, Custom Pipes &amp; Directives, Dynamic Components</td>
+    </tr>
+    <tr>
+      <td>Languages</td>
+      <td>TypeScript, JavaScript (ES2022+), Python, HTML5, CSS3/SCSS, PHP, AngularJS</td>
+    </tr>
+    <tr>
+      <td>UI Libraries</td>
+      <td>Angular Material, ag-Grid, Highcharts, Bootstrap, Custom Reusable Component Libraries</td>
+    </tr>
+    <tr>
+      <td>API &amp; Data</td>
+      <td>GraphQL, REST APIs, WebSockets, SOAP → AWS Migration, Swagger, Postman, Apollo Client</td>
+    </tr>
+    <tr>
+      <td>AI / GenAI</td>
+      <td>RAG Pipelines, Ollama, LangChain, Prompt Engineering, Vector Databases, Docker</td>
+    </tr>
+    <tr>
+      <td>Security</td>
+      <td>Veracode SAST/DAST, SonarQube, ESLint, OWASP, AMU Reports</td>
+    </tr>
+    <tr>
+      <td>Accessibility</td>
+      <td>WCAG 2.1, ARIA, NVDA Screen Reader Testing, Internationalization (i18n)</td>
+    </tr>
+    <tr>
+      <td>Testing</td>
+      <td>Jasmine, Karma, Siesta, Jest, &gt;80% Code Coverage, TDD</td>
+    </tr>
+    <tr>
+      <td>DevOps &amp; Tools</td>
+      <td>Azure DevOps, GitHub Actions, CI/CD (Dev/SIT/UAT), Docker, JIRA, GitHub Copilot, Git</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ════════════════════════════════════════ EXPERIENCE ═══ -->
+<div class="section">
+  <div class="section-title">Professional Experience</div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Senior Developer</span>
+      <span class="job-period">Jan 2023 – Present</span>
+    </div>
+    <div class="job-company">IBM</div>
+    <div class="job-domain">Airline Domain &amp; Retail Banking</div>
+    <ul>
+      <li>Led development of enterprise Angular Micro Frontend applications for a mission-critical global airline booking platform.</li>
+      <li>Designed reusable shared UI component libraries to improve consistency and reduce duplication across applications.</li>
+      <li>Collaborated with architects and business analysts to convert complex business requirements into scalable technical solutions.</li>
+      <li>Supported migration of enterprise services from SOAP APIs to AWS APIs; performed API analysis using Swagger and Postman.</li>
+      <li>Managed CI/CD deployments across Development, SIT, and UAT environments.</li>
+      <li>Resolved application security vulnerabilities identified through Veracode SAST and DAST scans.</li>
+      <li>Investigated and resolved production issues through systematic root cause analysis.</li>
+      <li>Developed secure enterprise banking frontend modules; improved code quality using SonarQube.</li>
+      <li>Leveraged GitHub Copilot to accelerate development and improve productivity.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · TypeScript · RxJS · Micro Frontends · Module Federation · AWS API Gateway · Veracode · SonarQube · GitHub Copilot · CI/CD · Azure DevOps · JIRA</div>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Senior Developer</span>
+      <span class="job-period">Aug 2022 – Dec 2022</span>
+    </div>
+    <div class="job-company">SAP Ariba</div>
+    <div class="job-domain">Procurement</div>
+    <ul>
+      <li>Developed Buyer Dashboard and Seller Profile Management Portal applications.</li>
+      <li>Contributed to migration of Seller and Buyer Profile Portal from legacy to modern Angular architecture.</li>
+      <li>Implemented unit test cases achieving over 80% code coverage.</li>
+      <li>Maintained high-quality coding standards and best practices throughout the project lifecycle.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · TypeScript · Jasmine · Karma · REST APIs</div>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Application Development Team Lead</span>
+      <span class="job-period">Apr 2020 – Aug 2022</span>
+    </div>
+    <div class="job-company">Accenture</div>
+    <div class="job-domain">Enterprise Workforce Management</div>
+    <ul>
+      <li>Led Angular UI architecture and front-end development activities for enterprise workforce management platform.</li>
+      <li>Built highly reusable Angular components, custom directives, and custom drag-and-drop panels.</li>
+      <li>Integrated ag-Grid and Angular Material; implemented WCAG accessibility standards across all modules.</li>
+      <li>Mentored junior developers; participated in architecture discussions and code reviews.</li>
+      <li>Managed deployments via Azure DevOps CI/CD pipelines.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · TypeScript · Angular Material · ag-Grid · Azure DevOps · SCSS · WCAG · ARIA</div>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Associate</span>
+      <span class="job-period">Sep 2018 – Apr 2020</span>
+    </div>
+    <div class="job-company">Cognizant</div>
+    <div class="job-domain">Airline eCommerce</div>
+    <ul>
+      <li>Developed and maintained an airline eCommerce application using Angular 6 and REST APIs in Agile Scrum.</li>
+      <li>Implemented accessibility standards (WCAG/ARIA) and tested with NVDA screen reader.</li>
+      <li>Ensured code quality through SonarQube, ESLint, and unit testing.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · REST APIs · Swagger · SonarQube · NVDA · JIRA</div>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Associate System Engineer</span>
+      <span class="job-period">Jan 2017 – Jun 2018</span>
+    </div>
+    <div class="job-company">Praxis Softek Solutions</div>
+    <div class="job-domain">Web / CMS</div>
+    <ul>
+      <li>Developed responsive, SEO-friendly web applications and custom WordPress themes.</li>
+      <li>Used HTML5, CSS3, JavaScript, jQuery, AngularJS, PHP, and MySQL; managed source code with Git.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Manager UI Development</span>
+      <span class="job-period">2016</span>
+    </div>
+    <div class="job-company">Mediterranean Alien Technology Consulting</div>
+    <div class="job-domain">Web</div>
+    <ul>
+      <li>Developed responsive websites, reusable UI components, Bootstrap layouts, and frontend enhancements.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Assistant Programmer</span>
+      <span class="job-period">2014 – 2016</span>
+    </div>
+    <div class="job-company">National Informatics Center</div>
+    <div class="job-domain">Government Web Applications</div>
+    <ul>
+      <li>Developed government web applications using HTML, CSS, JavaScript, PHP, and PostgreSQL.</li>
+      <li>Ensured W3C compliance and cross-browser compatibility.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Web Designer</span>
+      <span class="job-period">2013 – 2014</span>
+    </div>
+    <div class="job-company">Clematis Software Technologies</div>
+    <ul>
+      <li>Designed responsive websites, mobile interfaces, and user-friendly web experiences.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Web Designer</span>
+      <span class="job-period">2012 – 2013</span>
+    </div>
+    <div class="job-company">Zeon Group</div>
+    <ul>
+      <li>Built website templates using HTML, CSS, and jQuery; customised frontend plugins and interactive UI components.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════ PROJECTS ═══ -->
+<div class="section">
+  <div class="section-title">Key Projects</div>
+
+  <div class="project">
+    <div class="project-title">✈️ Enterprise Airline Booking &amp; Reservation Platform</div>
+    <div class="project-meta">IBM · Senior Angular Developer · Jan 2023 – Present</div>
+    <ul>
+      <li>Led Angular Micro Frontend module development for a mission-critical global airline booking platform.</li>
+      <li>Designed reusable shared UI component libraries; supported SOAP → AWS API migration.</li>
+      <li>Resolved Veracode SAST/DAST security vulnerabilities; managed CI/CD across Dev/SIT/UAT.</li>
+      <li>Performed root cause analysis and delivered timely production fixes.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · TypeScript · RxJS · Micro Frontends · Module Federation · AWS API Gateway · Veracode · Azure DevOps</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">🏦 Retail Banking Digital Platform</div>
+    <div class="project-meta">IBM · Senior Developer</div>
+    <ul>
+      <li>Developed scalable secure digital banking frontend for customer authentication &amp; account management.</li>
+      <li>Improved code quality via SonarQube; leveraged GitHub Copilot for productivity gains.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · TypeScript · SonarQube · GitHub Copilot · Agile Scrum</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">🛒 SAP Ariba Buyer &amp; Seller Portal</div>
+    <div class="project-meta">SAP Ariba · Senior Developer · 2022</div>
+    <ul>
+      <li>Developed Buyer Dashboard and Seller Profile Management Portal; migrated legacy profile modules.</li>
+      <li>Maintained &gt;80% unit test coverage using Jasmine and Karma.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · TypeScript · Jasmine · Karma · REST APIs</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">👥 Enterprise Workforce Management Platform</div>
+    <div class="project-meta">Accenture · Application Development Team Lead · 2020–2022</div>
+    <ul>
+      <li>Led frontend development; built reusable components, custom drag-and-drop panels, ag-Grid &amp; Angular Material integrations.</li>
+      <li>Mentored developers; implemented WCAG accessibility standards across all modules.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · TypeScript · Angular Material · ag-Grid · Azure DevOps · WCAG</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">✈️ Airline eCommerce Portal</div>
+    <div class="project-meta">Cognizant · Associate · 2018–2020</div>
+    <ul>
+      <li>Developed customer-facing airline booking &amp; eCommerce application with full ARIA / NVDA accessibility support.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Angular · REST APIs · Swagger · SonarQube · NVDA · JIRA</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">🤖 AI Knowledge Assistant (Personal Project)</div>
+    <div class="project-meta">AI Engineer Enthusiast</div>
+    <ul>
+      <li>Built RAG pipelines using vector embeddings for enterprise knowledge retrieval.</li>
+      <li>Integrated Ollama with open-source LLMs; experimented with prompt engineering and hallucination detection.</li>
+    </ul>
+    <div class="stack"><strong>Stack:</strong> Python · Ollama · RAG · Vector Database · LangChain · Docker · Prompt Engineering</div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════ SPECIALTIES ═══ -->
+<div class="section">
+  <div class="section-title">Technical Specialties</div>
+  <ul style="padding-left:18px; font-size:10pt; line-height:1.65; color:#333;">
+    <li>Micro Frontend Architecture, NgRx / RxJS State Management, Angular Material, ag-Grid, GraphQL</li>
+    <li>Lazy Loading, Dynamic Components, Custom Pipes/Directives, Custom Reactive Form Validation, Routing, i18n, PWA</li>
+    <li>Developing custom reusable components (Modal, Dropdown, Alert, Pagination, Tooltips, Validation Directives) without third-party libraries</li>
+    <li>Jasmine/Karma test cases, SonarQube quality analysis, ESLint, Siesta</li>
+    <li>SAST/DAST scan issue resolution, Veracode, AMU report creation</li>
+    <li>AEM Front-end Development with Gulp, Twig, HTML, SASS, JavaScript, and jQuery</li>
+    <li>ag-Grid, Highcharts, Angular Material third-party library integration</li>
+    <li>Code reviews, pair programming, Agile Scrum, JIRA, CI/CD pipeline management (Dev/SIT/UAT)</li>
+  </ul>
+</div>
+
+<!-- ════════════════════════════════════════ EDUCATION ═══ -->
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="edu-item">
+    <span class="deg">Bachelor of Technology — Information Technology</span><br/>
+    <span class="inst">St. Thomas College of Engineering &amp; Technology</span>
+    <span class="year">&nbsp;(2008–2011)</span>
+  </div>
+  <div class="edu-item" style="margin-top:8px;">
+    <span class="deg">Diploma — Computer Science</span><br/>
+    <span class="inst">Women's Polytechnic College</span>
+    <span class="year">&nbsp;(2005–2008)</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════ CERTIFICATIONS ═══ -->
+<div class="section">
+  <div class="section-title">Certifications</div>
+  <div class="cert-list">
+    <span class="cert-pill">IBM Generative AI Developer</span>
+    <span class="cert-pill">Microsoft Certified: Azure Fundamentals (AZ-900)</span>
+    <span class="cert-pill">Microsoft Certified: Power Platform Fundamentals</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════ LINKS ═══ -->
+<div class="section">
+  <div class="section-title">Online Profiles</div>
+  <table style="font-size:10pt; border-collapse:collapse; width:100%;">
+    <tr>
+      <td style="padding:3px 8px; width:18%; font-weight:600; color:#1a4a8a;">LinkedIn</td>
+      <td style="padding:3px 8px;"><a href="https://www.linkedin.com/in/piyalidas10/">linkedin.com/in/piyalidas10</a></td>
+      <td style="padding:3px 8px; width:18%; font-weight:600; color:#1a4a8a;">GitHub</td>
+      <td style="padding:3px 8px;"><a href="https://github.com/piyalidas10">github.com/piyalidas10</a></td>
+    </tr>
+    <tr>
+      <td style="padding:3px 8px; font-weight:600; color:#1a4a8a;">Portfolio</td>
+      <td style="padding:3px 8px;"><a href="https://piyalidas10.github.io/">piyalidas10.github.io</a></td>
+      <td style="padding:3px 8px; font-weight:600; color:#1a4a8a;">Medium</td>
+      <td style="padding:3px 8px;"><a href="https://medium.com/@piyalidas.it">medium.com/@piyalidas.it</a></td>
+    </tr>
+    <tr>
+      <td style="padding:3px 8px; font-weight:600; color:#1a4a8a;">StackBlitz</td>
+      <td style="padding:3px 8px;"><a href="https://stackblitz.com/@piyalidas10">stackblitz.com/@piyalidas10</a></td>
+      <td style="padding:3px 8px; font-weight:600; color:#1a4a8a;">CodePen</td>
+      <td style="padding:3px 8px;"><a href="http://codepen.io/piyalidas">codepen.io/piyalidas</a></td>
+    </tr>
+    <tr>
+      <td style="padding:3px 8px; font-weight:600; color:#1a4a8a;">Stack Overflow</td>
+      <td style="padding:3px 8px;"><a href="http://stackoverflow.com/users/7585478/piyali">stackoverflow.com/users/7585478</a></td>
+      <td style="padding:3px 8px; font-weight:600; color:#1a4a8a;">HackerRank</td>
+      <td style="padding:3px 8px;"><a href="https://www.hackerrank.com/piyalidas_it">hackerrank.com/piyalidas_it</a></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
