@@ -126,7 +126,7 @@ I am currently expanding into **Artificial Intelligence and Generative AI** — 
 | **Languages** | TypeScript, JavaScript (ES2022+), Python, HTML5, CSS3/SCSS, PHP |
 | **UI Libraries** | Angular Material, ag-Grid, Highcharts, Bootstrap |
 | **API & Data** | GraphQL, REST, WebSockets, SOAP→AWS Migration, Swagger, Postman |
-| **AI / GenAI** | Azure AI Foundry, RAG, Ollama, LangChain, Prompt Engineering, Vector DBs |
+| **AI / GenAI** | Docker, RAG, Ollama, LangChain, Prompt Engineering, Vector DBs |
 | **Security** | Veracode SAST/DAST, SonarQube, ESLint, OWASP |
 | **Accessibility** | WCAG 2.1, ARIA, NVDA screen reader testing |
 | **Testing** | Jasmine, Karma, Siesta, >80% code coverage |
@@ -184,12 +184,12 @@ I am currently expanding into **Artificial Intelligence and Generative AI** — 
 <details>
 <summary><b>🤖 AI Knowledge Assistant — Personal GenAI Project</b></summary>
 
-> **Stack:** Python · Azure AI Foundry · Ollama · RAG · Vector Database · Prompt Engineering · LangChain
+> **Stack:** Python · Docker · Ollama · RAG · Vector Database · Prompt Engineering · LangChain
 
 - Built RAG pipelines using vector embeddings for enterprise knowledge retrieval
 - Integrated Ollama with open-source LLMs for local inference
 - Experimented with prompt engineering and hallucination detection guardrails
-- Explored Azure AI Foundry capabilities for enterprise GenAI solutions
+- Explored Docker capabilities for enterprise GenAI solutions
 </details>
 
 ---
