@@ -113,12 +113,11 @@ More recently I have been deep-diving into **Agentic AI** — building intellige
 
 ---
 
-## ✍️ Latest Articles on Medium
+## ✍️ Most Popular Articles on Medium
 
 <!-- Replace with your 3 most recent articles -->
-- 📝 [Angular Micro-Frontend Architecture with Nx & Module Federation](https://medium.com/@piyalidas.it)
-- 📝 [Building Agentic AI Pipelines with LangChain and MCP](https://medium.com/@piyalidas.it)
-- 📝 [Mastering RxJS Patterns for Real-World Angular Apps](https://medium.com/@piyalidas.it)
+- 📝 [APP_INITIALIZER in Angular Realtime Example](https://medium.com/@piyalidas.it/app-initializer-in-angular-realtime-example-ba36284f515)
+- 📝 [Angular Cache — .angular Folder inside Angular Application](https://medium.com/@piyalidas.it/angular-cache-angular-folder-inside-angular-application-3f18408333d5)
 
 > 📌 More on [medium.com/@piyalidas.it](https://medium.com/@piyalidas.it)
 
