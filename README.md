@@ -7,8 +7,7 @@
 
 <p align="center">
   📍 Kolkata, West Bengal, India &nbsp;|&nbsp;
-  📧 <a href="mailto:piyalidas.it@gmail.com">piyalidas.it@gmail.com</a> &nbsp;|&nbsp;
-  📱 +91 8777757112
+  📧 <a href="mailto:piyalidas.it@gmail.com">piyalidas.it@gmail.com</a>
 </p>
 
 <p align="center">
